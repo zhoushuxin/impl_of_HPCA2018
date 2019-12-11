@@ -1,0 +1,97 @@
+      0: system.cpu.isa: Reading misc reg cpacr: 0
+      0: system.cpu.isa: Writing misc reg cpacr: 0xf00000
+      0: system.cpu.isa: Writing to misc reg 114 (114) : 0xf00000
+      0: system.cpu.isa: Writing to misc reg 14 (14) : 0x40000000
+      0: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+  82000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+2807000: system.cpu.isa: Writing to misc reg 276 (277) : 0x834a0
+3219000: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+3219000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+3226000: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+3226000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+3227000: system.cpu.isa: Writing to misc reg 11 (11) : 0
+4655000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+4655000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+4655000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+4909000: system.cpu.isa: Writing to misc reg 19 (19) : 0x73100
+4909000: system.cpu.isa: Writing to misc reg 20 (20) : 0x1
+4914000: system.cpu.isa: Writing to misc reg 29 (29) : 0x1
+4914000: system.cpu.isa: Writing to misc reg 20 (20) : 0
+4919500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+5081000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+5081000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+5081000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+5137000: system.cpu.isa: Writing to misc reg 19 (19) : 0x72030
+5137000: system.cpu.isa: Writing to misc reg 20 (20) : 0x1
+5142000: system.cpu.isa: Writing to misc reg 29 (29) : 0x1
+5142000: system.cpu.isa: Writing to misc reg 20 (20) : 0
+5147500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+8629000: system.cpu.isa: Writing to misc reg 19 (19) : 0x72030
+8629000: system.cpu.isa: Writing to misc reg 20 (20) : 0x1
+8634000: system.cpu.isa: Writing to misc reg 29 (29) : 0x1
+8634000: system.cpu.isa: Writing to misc reg 20 (20) : 0
+8639500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+8748500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+8748500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+8748500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+8760000: system.cpu.isa: Writing to misc reg 19 (19) : 0x72030
+8760000: system.cpu.isa: Writing to misc reg 20 (20) : 0x1
+8765000: system.cpu.isa: Writing to misc reg 29 (29) : 0x1
+8765000: system.cpu.isa: Writing to misc reg 20 (20) : 0
+8770500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+9005500: system.cpu.isa: Writing to misc reg 19 (19) : 0x72030
+9005500: system.cpu.isa: Writing to misc reg 20 (20) : 0x1
+9051000: system.cpu.isa: Writing to misc reg 29 (29) : 0x1
+9051000: system.cpu.isa: Writing to misc reg 20 (20) : 0
+9056500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11049500: system.cpu.isa: Writing to misc reg 19 (19) : 0x71dd8
+11049500: system.cpu.isa: Writing to misc reg 20 (20) : 0x1
+11054000: system.cpu.isa: Writing to misc reg 29 (29) : 0x1
+11054000: system.cpu.isa: Writing to misc reg 20 (20) : 0
+11059500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11333000: system.cpu.isa: Writing to misc reg 19 (19) : 0x71dd8
+11333000: system.cpu.isa: Writing to misc reg 20 (20) : 0x1
+11338000: system.cpu.isa: Writing to misc reg 29 (29) : 0x1
+11338000: system.cpu.isa: Writing to misc reg 20 (20) : 0
+11343500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11420000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11834000: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11834000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11834500: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11834500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11835000: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11835000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11835500: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11835500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11836000: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11836000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11836500: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11836500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11837000: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11837000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11837500: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11837500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11838000: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11838000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11838500: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11838500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11839000: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11839000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11839500: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11839500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11921000: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11921000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11924000: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11924000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11925500: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11925500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11926000: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11926000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+11987000: system.cpu.isa: Reading misc reg cpacr: 0xf00000
+11987000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+12008000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+12008000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+12008000: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+14708500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+14708500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
+14708500: system.cpu.isa: Reading MiscReg scr with clear res1 bits: 0x30
