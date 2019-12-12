@@ -1,0 +1,45 @@
+file /home/zhoushuxin/gem5/build/systemc/SConscript,line 45:
+	Configure(confdir = build/systemc/.scons_config)
+scons: Configure: Checking whether __i386__ is declared... 
+scons: Configure: "build/systemc/.scons_config/conftest_19.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/systemc/.scons_config/conftest_19.c <-
+  |  |
+  |  |int main()
+  |  |{
+  |  |#ifndef __i386__
+  |  |    (void) __i386__;
+  |  |#endif
+  |  |    ;
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: Building "build/systemc/.scons_config/conftest_19.o" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33msystemc/.scons_config/conftest_19[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking whether __x86_64__ is declared... 
+scons: Configure: "build/systemc/.scons_config/conftest_20.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/systemc/.scons_config/conftest_20.c <-
+  |  |
+  |  |int main()
+  |  |{
+  |  |#ifndef __x86_64__
+  |  |    (void) __x86_64__;
+  |  |#endif
+  |  |    ;
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/systemc/.scons_config/conftest_20.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33msystemc/.scons_config/conftest_20[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: (cached) yes
+
+
