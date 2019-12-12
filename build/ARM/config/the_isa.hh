@@ -1,0 +1,28 @@
+#ifndef __CONFIG_THE_ISA_HH__
+#define __CONFIG_THE_ISA_HH__
+
+#define ALPHA_ISA 1
+#define ARM_ISA 2
+#define MIPS_ISA 3
+#define NULL_ISA 4
+#define POWER_ISA 5
+#define RISCV_ISA 6
+#define SPARC_ISA 7
+#define X86_ISA 8
+
+enum class Arch {
+  AlphaISA = ALPHA_ISA,
+  ArmISA = ARM_ISA,
+  MipsISA = MIPS_ISA,
+  NullISA = NULL_ISA,
+  PowerISA = POWER_ISA,
+  RiscvISA = RISCV_ISA,
+  SparcISA = SPARC_ISA,
+  X86ISA = X86_ISA
+};
+
+#define THE_ISA ARM_ISA
+#define TheISA ArmISA
+#define THE_ISA_STR "arm"
+
+#endif // __CONFIG_THE_ISA_HH__
