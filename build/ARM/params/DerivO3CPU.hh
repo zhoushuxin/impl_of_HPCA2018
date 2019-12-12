@@ -1,0 +1,211 @@
+#ifndef __PARAMS__DerivO3CPU__
+#define __PARAMS__DerivO3CPU__
+
+class DerivO3CPU;
+
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "params/BranchPredictor.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "params/FUPool.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include <string>
+#include <cstddef>
+#include <string>
+#include <cstddef>
+#include <string>
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include <string>
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include <string>
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+
+#include "params/BaseCPU.hh"
+
+struct DerivO3CPUParams
+	: public BaseCPUParams
+{
+	DerivO3CPU * create();
+	unsigned LFSTSize;
+	unsigned LQEntries;
+	bool LSQCheckLoads;
+	unsigned LSQDepCheckShift;
+	unsigned SQEntries;
+	unsigned SSITSize;
+	unsigned activity;
+	unsigned backComSize;
+	BPredUnit * branchPred;
+	unsigned cacheStorePorts;
+	Cycles commitToDecodeDelay;
+	Cycles commitToFetchDelay;
+	Cycles commitToIEWDelay;
+	Cycles commitToRenameDelay;
+	unsigned commitWidth;
+	Cycles decodeToFetchDelay;
+	Cycles decodeToRenameDelay;
+	unsigned decodeWidth;
+	unsigned dispatchWidth;
+	unsigned fetchBufferSize;
+	unsigned fetchQueueSize;
+	Cycles fetchToDecodeDelay;
+	Cycles fetchTrapLatency;
+	unsigned fetchWidth;
+	unsigned forwardComSize;
+	FUPool * fuPool;
+	Cycles iewToCommitDelay;
+	Cycles iewToDecodeDelay;
+	Cycles iewToFetchDelay;
+	Cycles iewToRenameDelay;
+	Cycles issueToExecuteDelay;
+	unsigned issueWidth;
+	bool needsTSO;
+	unsigned numIQEntries;
+	unsigned numPhysCCRegs;
+	unsigned numPhysFloatRegs;
+	unsigned numPhysIntRegs;
+	unsigned numPhysVecRegs;
+
+	//zsx add
+	unsigned numPhysInt_0sh_Regs=98;
+	unsigned numPhysInt_1sh_Regs=10;
+	unsigned numPhysInt_2sh_Regs=10;
+	unsigned numPhysInt_3sh_Regs=10;
+
+	unsigned numPhysFloat_0sh_Regs=192;
+	unsigned numPhysFloat_1sh_Regs=0;
+	unsigned numPhysFloat_2sh_Regs=0;
+	unsigned numPhysFloat_3sh_Regs=0;
+
+	unsigned numPhysVec_0sh_Regs=48;
+	unsigned numPhysVec_1sh_Regs=0;
+	unsigned numPhysVec_2sh_Regs=0;
+	unsigned numPhysVec_3sh_Regs=0;
+
+	unsigned numPhysCC_0sh_Regs=640;
+	unsigned numPhysCC_1sh_Regs=0;
+	unsigned numPhysCC_2sh_Regs=0;
+	unsigned numPhysCC_3sh_Regs=0;
+
+
+	unsigned numROBEntries;
+	unsigned numRobs;
+	Cycles renameToDecodeDelay;
+	Cycles renameToFetchDelay;
+	Cycles renameToIEWDelay;
+	Cycles renameToROBDelay;
+	unsigned renameWidth;
+	std::string smtCommitPolicy;
+	std::string smtFetchPolicy;
+	std::string smtIQPolicy;
+	int smtIQThreshold;
+	std::string smtLSQPolicy;
+	int smtLSQThreshold;
+	unsigned smtNumFetchingThreads;
+	std::string smtROBPolicy;
+	int smtROBThreshold;
+	unsigned squashWidth;
+	unsigned store_set_clear_period;
+	Cycles trapLatency;
+	unsigned wbWidth;
+};
+
+#endif // __PARAMS__DerivO3CPU__
+
