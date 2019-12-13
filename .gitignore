@@ -26,3 +26,4 @@ m5out
 /system/arm/aarch64_bootloader/boot_emm.arm64
 /build/ARM/arch/arm/generated
 /build/ARM/arch/arm/lib.o.partial
+/build/ARM/learning_gem5/part2/lib.o.partial
