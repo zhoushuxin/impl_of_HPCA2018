@@ -30,4 +30,4 @@ m5out
 /build/X86/arch/x86/generated
 /build/X86/arch/x86/lib.o.partial
 /build/X86/learning_gem5/part2/lib.o.partial
-/build/X86/arch/x86/generated
+/build/X86/arch/x86/generated/*
